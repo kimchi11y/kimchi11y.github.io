@@ -1,99 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website with Material Design</title>
-    <!-- Materialize CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        header, footer {
-            background-color: #00796b;
-            color: white;
-        }
-        main {
-            padding: 2rem 0;
-        }
-    </style>
-</head>
-<body>
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Navbar -->
-    <nav>
-        <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">My Simple Website</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+</head>
+
+<body>
+    <header class="flex justify-between p-5 bg-gradient-to-r from-green-500 via via-violet-500 to to-blue-500 text-white font-bold">
+        
+        <div>
+            <a href="">
+                <h1 class="p-3 rounded-2xl transition ease-in-out "> Abdul Hakim </h1>
+            </a>
+        </div>
+        <div>
+            <ul class="flex gap-5">
+                <li class="p-3">About</li>
+                <li class="p-3"> Content</li>
             </ul>
         </div>
-    </nav>
+        <div>
 
-    <!-- Main Content -->
-    <main>
-        <div class="container">
-            <div class="section" id="about">
-                <h4>About This Website</h4>
-                <p>This is a simple HTML website with a basic structure, enhanced with Material Design elements using the Materialize CSS framework. Customize it by adding more content, styles, and scripts.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus ac, egestas hendrerit magna. Vivamus sit amet semper lacus, in mollis libero.</p>
+            <div>
+
+
             </div>
 
-            <div class="section" id="contact">
-                <h4>Contact Us</h4>
-                <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input id="first_name" type="text" class="validate">
-                                <label for="first_name">First Name</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Last Name</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <textarea id="message" class="materialize-textarea"></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                        </div>
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i>
-                        </button>
-                    </form>
-                </div>
-            </div>
+    </header>
+    <div class="grid grid-cols-2 gap-8 ">
+        <div>
+            <img src="cat.jpg" class="m-5">
         </div>
-    </main>
+        <div class="">
+            <h1 class="text-5xl"> Hello </h1>
+            <h2 class="text-3xl"> My name is <span class="text-3xl text-violet-500">Hakim</span> </h2>
+            <h4> I specialized in:</h4>
+            
+                <ul class="flex gap-5">
+                    <li class="p-3 rounded-2xl bg-cyan-400 hover:translate-y-2 hover:translate-x-1 transition"> HTML</li>
+                    <li class="p-3 rounded-none bg-cyan-400"> JAVA</li>
+                    <li> PROCRASTINATING</li>
+                    <li> MEMES </li>
+                </ul>
+    
+            
+        </div>
 
-    <!-- Footer -->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Simple Website</h5>
-                    <p class="grey-text text-lighten-4">This is a simple website created with Materialize CSS framework to showcase Material Design elements.</p>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2024 Simple Website. All rights reserved.
-            </div>
-        </div>
+
+    </div>
+    <footer class="mt-50">
+        Made with love by Hakim
     </footer>
-
-    <!-- Materialize JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>
