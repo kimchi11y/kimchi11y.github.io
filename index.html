@@ -1,1 +1,99 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Simple Website</title> <style> body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; } header { background: #333; color: #fff; padding: 1rem 0; text-align: center; } main { padding: 2rem; } footer { background: #333; color: #fff; text-align: center; padding: 1rem 0; position: fixed; width: 100%; bottom: 0; } .container { max-width: 1100px; margin: auto; overflow: hidden; padding: 0 2rem; } </style> </head> <body> <header> <div class="container"> <h1>Welcome to My Simple Website</h1> </div> </header> <main> <div class="container"> <h2>About This Website</h2> <p>This is a simple HTML website with a basic structure. You can customize it abc by adding more content, styles, and scripts.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus ac, egestas hendrerit magna. Vivamus sit amet semper lacus, in mollis libero.</p> </div> </main> <footer> <div class="container"> <p>&copy; 2024 Simple Website. All rights reserved.</p> </div> </footer> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website with Material Design</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #00796b;
+            color: white;
+        }
+        main {
+            padding: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">My Simple Website</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="section" id="about">
+                <h4>About This Website</h4>
+                <p>This is a simple HTML website with a basic structure, enhanced with Material Design elements using the Materialize CSS framework. Customize it by adding more content, styles, and scripts.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus ac, egestas hendrerit magna. Vivamus sit amet semper lacus, in mollis libero.</p>
+            </div>
+
+            <div class="section" id="contact">
+                <h4>Contact Us</h4>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Simple Website</h5>
+                    <p class="grey-text text-lighten-4">This is a simple website created with Materialize CSS framework to showcase Material Design elements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 Simple Website. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
