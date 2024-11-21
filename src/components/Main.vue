@@ -10,12 +10,14 @@
       <div class="mx-auto px-6 max-w-6xl text-gray-500">
         <div class="relative">
           <div class="relative z-10 grid gap-3 grid-cols-6">
-            <div class="col-span-full lg:col-span-2 overflow-hidden flex relative p-8 rounded-xl bg-white border border-gray-200 ">
-              <div class="size-fit m-auto relative">
-                <div class="relative  flex items-center text-2xl font-semibold text-black">
-                Hello! Im Abdul Hakim
+            <div class="col-span-full lg:justify-center lg:items-center lg:col-span-2 overflow-hidden flex relative p-8 rounded-xl bg-white border border-gray-200 ">
+              <div class="size-fit   relative ">
+                <div class="relative  flex items-center text-indigo-700 text-3xl font-bold text-black ">
+                Hi, I'm Hakim👋
                   </div>
-                <h2 class="mt-6 text-center font-semibold text-gray-950  text-3xl">Software Developer</h2>
+                <h2 class=" font-semibold text-gray-950  text-xl">Software Developer </h2>
+                <h2 class=" font-semibold text-gray-950  text-xl"> </h2>
+                <h2 class=" font-semibold text-gray-950  text-base"></h2>
               </div>
             </div>
             <div class="col-span-full sm:col-span-3 lg:col-span-2 overflow-hidden relative p-8 rounded-xl bg-white border border-gray-200 ">
