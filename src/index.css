@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-dotted-grid {
+        background-color: #f5f5f5; /* Background color */
+        background-image: radial-gradient(circle, #000 1px, transparent 1px); /* Dots */
+        background-size: 20px 20px; /* Grid spacing */
+    }
+}
