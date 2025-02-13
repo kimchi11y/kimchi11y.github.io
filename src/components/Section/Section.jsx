@@ -7,8 +7,8 @@ import Box5 from "./Box5";
 const Section = () => {
   return (
     <section>
-      <div className="py-16">
-        <div className="mx-auto px-6 max-w-6xl text-gray-500">
+      <div className="py-20">
+        <div className="container mx-auto px-6 max-w-6xl text-gray-500">
           <div className="relative">
             <div className="relative z-10 grid gap-3 grid-cols-6">
               <Box1 />

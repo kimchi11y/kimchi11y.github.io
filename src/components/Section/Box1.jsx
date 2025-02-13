@@ -1,6 +1,6 @@
 const Box1 = () => {
     return (
-      <div className="col-span-full lg:justify-center lg:items-center lg:col-span-2 overflow-hidden flex relative p-8 rounded-xl bg-white border border-gray-200">
+      <div className=" glass-box col-span-full lg:justify-center lg:items-center lg:col-span-2 overflow-hidden flex relative p-8 rounded-xl bg-white border border-gray-200">
         <div className="size-fit relative">
           <div className="relative flex items-center text-indigo-700 text-3xl font-bold text-black">
             Hi, I'm Hakim👋
