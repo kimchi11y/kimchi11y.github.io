@@ -3,24 +3,7 @@
 @tailwind utilities;
 
 
-@layer utilities {
-    .glass-box {
-        background: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-   
-        .bg-dotted-grid {
-            background-color: #f5f5f5; /* Background color */
-            background-image: radial-gradient(circle, grey 1px, transparent 1px); /* Dots */
-            background-size: 20px 20px; /* Grid spacing */
-            min-height: 100vh; /* Ensures it covers the full viewport */
-            width: 100vw;
-        }
-    }
-    
+
 
     
     

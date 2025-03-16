@@ -1,15 +1,18 @@
-import { useState } from 'react'
+
 import './App.css'
-import Main from './pages/Main'
 
 function App() {
   
 
   return (
     
-   <div className='bg-dotted-grid'>
-    <div className='pt-10'></div>
-    <Main/>
+   <div className='h-screen bg-gray-900'>
+       <div className='text-white py-6 px-4 font-semibold text-2xl md:text-center '>
+           Hi, I'm Hakim 👋
+       </div>
+
+
+
    </div>
   )
 }
