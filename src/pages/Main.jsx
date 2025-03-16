@@ -4,9 +4,7 @@ import Section from '../components/Section/Section.jsx'
 function Main() {
   return (
     <div>
-      <Navbar />
-        <Section/>
-     
+    
     </div>
   )
 }
