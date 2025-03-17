@@ -3,7 +3,7 @@ export default function Skill() {
 
     return (
         <div className="container mx-auto px-5 max-w-4xl text-white pt-9">
-            <h2 className="text-2xl font-semibold mb-4 underline">My Skills</h2>
+            <h2 className="text-2xl font-semibold mb-4 md:text-2xl ">Skills</h2>
             <div className="flex flex-wrap  gap-3">
                 {skills.map(skill => (
                     <div
