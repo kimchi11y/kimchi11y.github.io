@@ -1,18 +1,13 @@
 
 import './App.css'
-
+import Header from './sections/Header.jsx'
 function App() {
   
 
   return (
     
-   <div className='h-screen bg-gray-900'>
-       <div className='text-white py-6 px-4 font-semibold text-2xl md:text-center '>
-           Hi, I'm Hakim 👋
-       </div>
-
-
-
+   <div className='h-screen bg-black '>
+   <Header/>
    </div>
   )
 }
