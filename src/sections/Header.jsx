@@ -1,18 +1,14 @@
-import elgato from "../assets/elgato.jpg";
+
 
 export default function Header() {
     return (
-        <>
-            <div className="">
-                <div className="text-white pt-9 px-5 font-semibold text-2xl">
-                    Hi, I'm Hakim👋
-                </div>
-                <div className="text-gray-300 px-5 text-sm">
-                    Software developer wannabe who love to build things and learn new stuff.
-                 </div>
-
-
-            </div>
-        </>
+        <div className="container mx-auto px-5 max-w-4xl">
+            <h1 className="text-white pt-9 font-semibold text-3xl md:text-4xl">
+                Hi, I'm Hakim👋
+            </h1>
+            <p className="text-gray-300 text-lg md:text-xl">
+                Software developer wannabe who loves to build things and learn new stuff.
+            </p>
+        </div>
     );
 }
