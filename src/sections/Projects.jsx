@@ -8,34 +8,14 @@ export default function Projects() {
             description: "DeTA, a community for developers to share interests in tech and software in IIUM.",
             link: "https://detacommunity.com/",
             language: "Next.js, Tailwind CSS"
-        },
-        {
-            title: "Personal Blog",
-            image: "/images/blog.png",
-            description: "A blog where I write about development, tech, and personal experiences.",
-            link: "https://yourblog.com",
-            language: "HTML, CSS, JavaScript"
-        },
-        {
-            title: "Movie App",
-            image: "/images/movieapp.png",
-            description: "A movie tracking app that allows users to save and review their favorite movies.",
-            link: "https://yourmovieapp.com",
-            language: "HTML, CSS, JavaScript"
-        },
-        {
-            title: "Todo App",
-            image: "/images/todo.png",
-            description: "A simple and efficient to-do list app to keep track of daily tasks.",
-            link: "https://yourtodoapp.com",
-            language: "HTML, CSS, JavaScript"
         }
+
     ];
 
     return (
         <div className="bg-gray-100 py-12">
             <div className="container mx-auto px-5 max-w-4xl">
-                <h2 className="text-black font-bold text-3xl md:text-4xl text-center mb-8">
+                <h2 className="text-black font-semibold text-2xl md:text-3xl mb-8">
                     Projects
                 </h2>
                 <div className="grid sm:grid-cols-2 gap-6">
