@@ -1,5 +1,11 @@
+import { FaHtml5 } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
+
 export default function Skill() {
-    const skills = ["HTML", "CSS", "JavaScript", "React", "PHP", "Node.js", "MySQL", "MongoDB"];
+    const skills = [
+        {id : 1, name: "HTML", icon: < FaHtml5 />},
+        {id : 2, name: "Laravel", icon: <FaLaravel />},
+    ]
 
     return (
         <div className="container mx-auto px-5 max-w-4xl text-black pt-9">
@@ -7,10 +13,10 @@ export default function Skill() {
             <div className="flex flex-wrap  gap-3">
                 {skills.map(skill => (
                     <div
-                        key={skill}
-                        className="px-2 py-1 bg-blue-800 text-gray-300 rounded-lg transition hover:bg-blue-500 hover:text-white"
+                        key={skill.id}
+                        className=" px-4 py-2 text-sm font-semibold text-gray-700 flex items-center gap-2 shadow-md hover:bg-gray-300 transition duration-300"
                     >
-                        {skill}
+                        {skill.name} {skill.icon}
                     </div>
                 ))}
             </div>
