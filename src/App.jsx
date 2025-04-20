@@ -14,6 +14,7 @@ function App() {
   return (
 
    <div className='mx-auto min-h-screen max-w-2xl  px-6 py-12 '>
+    Yea
        <Navbar/>
    <Header/>
     <About/>
