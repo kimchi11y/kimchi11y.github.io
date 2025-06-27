@@ -1,4 +1,8 @@
 export default function About() {
+
+    function UniName(props) {
+        return <div>  2nd year CS student at, {props.name}.</div>
+    }
     return(
         <>
             <div className="container mx-auto px-5 max-w-4xl">
@@ -7,7 +11,7 @@ export default function About() {
                     About
                 </div>
                 <div className= "text-black text-base  sm:text-lg pt-3">
-                    2nd year CS student at IIUM. Constantly learning on software development. I also join theatre sometime lol. Currently learning Laravel and React.
+                    <UniName name="IIUM"/>Constantly learning on software development. I also join theatre sometime lol. Currently learning Laravel and React.
                 </div>
                 <div>
 
