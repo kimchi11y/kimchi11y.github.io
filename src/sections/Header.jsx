@@ -17,7 +17,8 @@ export default function Header(props) {
             <p className="text-black text-lg md:text-xl">
                 Software developer  wannabe who loves to build things and learn new stuff.
             </p>
-            <button className="bg-green-400 p-2 rounded-xl text-white" onClick={handleClick}>{goofy ? 'Professional Mode' : 'Goofy ahh Mode'}</button>
+            {/*use backticks ``when putting stuff like this ${}*/ }
+            <button className={`p-2 rounded-xl text-white transition delay-150 duration-300 ease-in-out hover:bg-green-500 hover:scale-110 ${goofy ? 'bg-green-400' : 'bg-purple-400'}`} onClick={handleClick}>{goofy ? 'Professional Mode'  : 'Goofy ahh Mode'}</button>
         </div>
     );
 }
