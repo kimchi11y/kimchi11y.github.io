@@ -8,10 +8,10 @@ export default function Header(props) {
   }
     return (
         <div className="container mx-auto px-5 max-w-4xl">
-            <div className="">
-                <img src={selfie} alt="Profile" className="rounded-full object-cover w-32 h-32 md:w-48 md:h-48" />
+            <div className="flex justify-center">
+                <img src={selfie} alt="Profile" className="rounded-full object-cover w-32 h-32 md:w-48 md:h-48 mt-3" />
             </div>
-            <h1 className="text-black pt-9 font-semibold text-3xl md:text-5xl">
+            <h1 className="text-black pt-6 font-semibold text-3xl md:text-5xl">
                 Hi, I'm <span className="text-blue-700"> {props.name}👋 </span>
             </h1>
             <p className="text-black text-lg md:text-xl">
